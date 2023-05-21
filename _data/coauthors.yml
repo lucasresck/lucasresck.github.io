@@ -1,34 +1,47 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Jorge Poco
+# J. Poco
+# J Poco
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Poco":
+  - firstname: ["Jorge", "J.", "J"]
+    url: https://emap.fgv.br/professores/jorge-poco
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+# Luis Nonato
+# L. Nonato
+# L Nonato
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+# Luis Gustavo Nonato
+# Luis G. Nonato
+# Luis G Nonato
+# L. Gustavo Nonato
+# L Gustavo Nonato
+# L. G. Nonato
+# L G Nonato
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Nonato":
+  - firstname: [Luis, L., L, Luis Gustavo, Luis G., Luis G, L. Gustavo, L Gustavo, L. G., L G]
+    url: https://sites.icmc.usp.br/gnonato/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+# Jean Ponciano
+# J. Ponciano
+# J Ponciano
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+# Jean Roberto Ponciano
+# Jean R. Ponciano
+# Jean R Ponciano
+# J. Roberto Ponciano
+# J Roberto Ponciano
+# J. R. Ponciano
+# J R Ponciano
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Ponciano":
+  - firstname: [Jean, J., J, Jean Roberto, Jean R., Jean R, J. Roberto, J Roberto, J. R., J R]
+    url: https://sites.google.com/view/jeanponciano
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+# Diego Mesquita
+# D. Mesquita
+# D Mesquita
+
+"Mesquita":
+  - firstname: [Diego, D., D]
+    url: https://emap.fgv.br/professores/diego-mesquita
