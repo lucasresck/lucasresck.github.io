@@ -8,3 +8,4 @@
 - [ ] Blog
 - [ ] Coauthors annotation
 - [ ] Mentioned papers
+- [ ] https://www.youtube.com/watch?v=g6AJ9qPPoyc
