@@ -9,4 +9,4 @@
 - [ ] Coauthors annotation
 - [ ] Mentioned papers
 - [ ] https://www.youtube.com/watch?v=g6AJ9qPPoyc
-- [ ] Underline full name in publications
+- [x] Underline full name in publications
