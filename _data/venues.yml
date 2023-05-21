@@ -1,6 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# "AJP":
+#   url: https://aapt.scitation.org/journal/ajp
+#   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"AISTATS 2023":
+  url: http://aistats.org/aistats2023/
+
+"TVCG 2023":
+  url: https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=2945
