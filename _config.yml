@@ -270,8 +270,28 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags wil
 
 scholar:
 
-  last_name: [Resck, Resck Domingues, R. Domingues, R Domingues]
-  first_name: [Lucas, L., L, Lucas Emanuel, Lucas E., Lucas E, L. E., L E, LE]
+  # Lucas Resck
+  # L. Resck
+  # L Resck
+
+  # Lucas Emanuel Resck
+  # Lucas E. Resck
+  # Lucas E Resck
+  # L. E. Resck
+  # L E Resck
+
+  # Lucas Emanuel Resck Domingues
+  # Lucas E. Resck Domingues
+  # Lucas E Resck Domingues
+  # Lucas E. R. Domingues
+  # Lucas E R Domingues
+  # L. E. Resck Domingues
+  # L E Resck Domingues
+  # L. E. R. Domingues
+  # L E R Domingues
+
+  last_name: [Resck, Domingues]
+  first_name: [Lucas, L., L, Lucas Emanuel, Lucas E., Lucas E, L. E., L E, Lucas Emanuel Resck, Lucas E. Resck, Lucas E Resck, Lucas E. R., Lucas E R, L. E. Resck, L E Resck, L. E. R., L E R]
 
   style: apa
   locale: en
