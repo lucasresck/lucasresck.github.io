@@ -6,3 +6,4 @@
 - [ ] google-site-verification ID (Google Search Console) and `enable_google_verification`
 - [ ] Google Analytics
 - [ ] Blog
+- [ ] Coauthors annotation
