@@ -10,3 +10,4 @@
 - [ ] Mentioned papers
 - [ ] https://www.youtube.com/watch?v=g6AJ9qPPoyc
 - [x] Underline full name in publications
+- [ ] Decrease the number of icons in top bar
