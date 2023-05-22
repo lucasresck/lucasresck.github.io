@@ -12,3 +12,4 @@
 - [x] Underline full name in publications
 - [ ] Decrease the number of icons in top bar
 - [ ] Fix news scroll
+- [ ] Add cats page
