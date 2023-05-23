@@ -12,7 +12,7 @@
 - [x] Fix news scroll
 - [ ] Add cats page
 - [ ] Add projects
-- [ ] Set up automatic upgrade
+- [x] Set up automatic upgrade
 
 ## Backlog
 
