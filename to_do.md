@@ -13,9 +13,10 @@
 - [ ] Fix news scroll
 - [ ] Add cats page
 - [ ] Add projects
+- [ ] Set up automatic upgrade
 
 ## Backlog
 
 - [ ] RSS Feed ("Take a look to https://github.com/jekyll/jekyll-feed for more customization")
-- [ ] "Open Graph & Schema.org" settings
+- [ ] "Open Graph & Schema.org" settings and social media previews
 - [ ] Blog and external sources
