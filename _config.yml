@@ -78,7 +78,7 @@ mastodon_username: # your mastodon instance+username in the format instance.tld/
 linkedin_username: lucasresck # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: ROLstoAAAAAJ # your Google Scholar ID
-semanticscholar_id: 2164014168 # your Semantic Scholar ID
+semanticscholar_id: # 2164014168 # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0000-0001-9634-450X # your ORCID ID
 medium_username: # your Medium username
@@ -93,7 +93,7 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-dblp_url: https://dblp.org/pid/315/0757.html # your DBLP profile url
+dblp_url: # https://dblp.org/pid/315/0757.html # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
 kaggle_id: # your kaggle id
 lastfm_id: # your lastfm id
