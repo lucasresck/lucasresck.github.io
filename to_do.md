@@ -9,7 +9,7 @@
 - [x] https://www.youtube.com/watch?v=g6AJ9qPPoyc
 - [x] Underline full name in publications
 - [x] Decrease the number of icons in top bar
-- [ ] Fix news scroll
+- [x] Fix news scroll
 - [ ] Add cats page
 - [ ] Add projects
 - [ ] Set up automatic upgrade
@@ -20,3 +20,4 @@
 - [ ] "Open Graph & Schema.org" settings and social media previews
 - [ ] Blog and external sources
 - [ ] Mentioned papers
+- [ ] Paper previews --- removes venue
