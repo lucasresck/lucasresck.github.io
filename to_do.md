@@ -2,6 +2,7 @@
 
 ## Recent
 
+- [ ] Clean site pages to clean `sitemap` for Google Search Console
 - [x] Update all available site information using the comments as suggestions
 - [x] google-site-verification ID (Google Search Console) and `enable_google_verification`
 - [x] Coauthors annotation
