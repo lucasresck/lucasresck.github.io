@@ -13,6 +13,8 @@
 - [ ] Add cats page
 - [ ] Add projects
 - [x] Set up automatic upgrade
+- [ ] Add coauthors homepages
+- [ ] Remove Unsplash photos
 
 ## Backlog
 
