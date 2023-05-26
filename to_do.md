@@ -3,8 +3,7 @@
 ## Recent
 
 - [x] Update all available site information using the comments as suggestions
-- [ ] google-site-verification ID (Google Search Console) and `enable_google_verification`
-- [ ] Google Analytics
+- [x] google-site-verification ID (Google Search Console) and `enable_google_verification`
 - [x] Coauthors annotation
 - [x] https://www.youtube.com/watch?v=g6AJ9qPPoyc
 - [x] Underline full name in publications
@@ -23,3 +22,4 @@
 - [ ] Blog and external sources
 - [ ] Mentioned papers
 - [ ] Paper previews --- removes venue
+- [ ] Google Analytics
