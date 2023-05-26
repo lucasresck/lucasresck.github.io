@@ -14,7 +14,7 @@
 - [ ] Add projects
 - [x] Set up automatic upgrade
 - [ ] Add coauthors homepages
-- [ ] Remove Unsplash photos
+- [x] Remove Unsplash photos
 
 ## Backlog
 
