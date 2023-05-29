@@ -38,6 +38,7 @@ If you like the theme, give it a star!
 - [x] Set up automatic upgrade
 - [ ] Add coauthors homepages
 - [x] Remove Unsplash photos
+- [ ] Solve Google Search Console indexing problems. It may require update `sitemap` or `robots.txt`
 
 ### Backlog
 
