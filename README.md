@@ -21,6 +21,35 @@ If you like the theme, give it a star!
 
 [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
+## To do
+
+### Recent
+
+- [x] Clean site pages to clean `sitemap` for Google Search Console
+- [x] Update all available site information using the comments as suggestions
+- [x] google-site-verification ID (Google Search Console) and `enable_google_verification`
+- [x] Coauthors annotation
+- [x] https://www.youtube.com/watch?v=g6AJ9qPPoyc
+- [x] Underline full name in publications
+- [x] Decrease the number of icons in top bar
+- [x] Fix news scroll
+- [ ] Add cats page
+- [ ] Add projects
+- [x] Set up automatic upgrade
+- [ ] Add coauthors homepages
+- [x] Remove Unsplash photos
+- [ ] Solve Google Search Console indexing problems. It may require update `sitemap` or `robots.txt`
+- [ ] Develop template sync methodology
+
+### Backlog
+
+- [ ] RSS Feed ("Take a look to https://github.com/jekyll/jekyll-feed for more customization")
+- [ ] "Open Graph & Schema.org" settings and social media previews
+- [ ] Blog and external sources
+- [ ] Mentioned papers
+- [ ] Paper previews --- removes venue
+- [ ] Google Analytics
+
 ## User community
 
 The vibrant community of **al-folio** users is growing!
@@ -101,12 +130,6 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://bajinsheng.github.io/" target="_blank">★</a>
 <a href="https://www.silviofanzon.com/" target="_blank">★</a>
 <a href="https://kaikaiyao.github.io/" target="_blank">★</a>
-<a href="https://alchemz.github.io/" target="_blank">★</a>
-<a href="https://samadamday.com/" target="_blank">★</a>
-<a href="https://fanpu.io/" target="_blank">★</a>
-<a href="https://abigalekim.github.io/" target="_blank">★</a>
-<a href="https://lucasresck.github.io/" target="_blank">★</a>
-<a href="https://users.wpi.edu/~lfichera/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -142,7 +165,6 @@ ICBINB (NeurIPS: <a href="https://i-cant-believe-its-not-better.github.io/" targ
 Neural Compression (ICLR: <a href="https://neuralcompression.github.io/" target="_blank">2021</a>) <br>
 Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.github.io/" target="_blank">2022</a>)<br>
 Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_blank"> 2022</a>)
-Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.github.io/" target="_blank"> 2023</a>)
 </td>
 </tr>
 </table>

@@ -1,4 +1,6 @@
 User-agent: *
-Disallow:
+Disallow: /projects/
+Disallow: /teaching/
+Disallow: /blog/
 
-Sitemap: https://alshedivat.github.io/al-folio/sitemap.xml
+Sitemap: https://lucasresck.github.io/sitemap.xml
