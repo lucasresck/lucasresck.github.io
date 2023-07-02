@@ -21,35 +21,6 @@ If you like the theme, give it a star!
 
 [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
-## To do
-
-### Recent
-
-- [x] Clean site pages to clean `sitemap` for Google Search Console
-- [x] Update all available site information using the comments as suggestions
-- [x] google-site-verification ID (Google Search Console) and `enable_google_verification`
-- [x] Coauthors annotation
-- [x] https://www.youtube.com/watch?v=g6AJ9qPPoyc
-- [x] Underline full name in publications
-- [x] Decrease the number of icons in top bar
-- [x] Fix news scroll
-- [ ] Add cats page
-- [ ] Add projects
-- [x] Set up automatic upgrade
-- [ ] Add coauthors homepages
-- [x] Remove Unsplash photos
-- [ ] Solve Google Search Console indexing problems. It may require update `sitemap` or `robots.txt`
-- [ ] Develop template sync methodology
-
-### Backlog
-
-- [ ] RSS Feed ("Take a look to https://github.com/jekyll/jekyll-feed for more customization")
-- [ ] "Open Graph & Schema.org" settings and social media previews
-- [ ] Blog and external sources
-- [ ] Mentioned papers
-- [ ] Paper previews --- removes venue
-- [ ] Google Analytics
-
 ## User community
 
 The vibrant community of **al-folio** users is growing!
@@ -175,31 +146,33 @@ Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_bla
 
 ## Table Of Contents
 
-  * [User community](#user-community)
-  * [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
-  * [Getting started](#getting-started)
-    + [Installation](#installation)
+- [al-folio](#al-folio)
+  - [User community](#user-community)
+  - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
+  - [Table Of Contents](#table-of-contents)
+  - [Getting started](#getting-started)
+    - [Installation](#installation)
       - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
       - [Local Setup (Standard)](#local-setup-standard)
       - [Deployment](#deployment)
       - [Upgrading from a previous version](#upgrading-from-a-previous-version)
-    + [FAQ](#faq)
-  * [Features](#features)
-    + [Publications](#publications)
-    + [Collections](#collections)
-    + [Layouts](#layouts)
+    - [FAQ](#faq)
+  - [Features](#features)
+    - [Publications](#publications)
+    - [Collections](#collections)
+    - [Layouts](#layouts)
       - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math & code](#full-support-for-math--code)
+      - [Full support for math \& code](#full-support-for-math--code)
       - [Photos](#photos)
-    + [Other features](#other-features)
-      - [GitHub repositories and user stats](#github-repositories-and-user-stats)
+    - [Other features](#other-features)
+      - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
       - [Theming](#theming)
       - [Social media previews](#social-media-previews)
       - [Atom (RSS-like) Feed](#atom-rss-like-feed)
       - [Related posts](#related-posts)
-  * [Contributing](#contributing)
-    + [Core Contributors](#core-contributors)
-  * [License](#license)
+  - [Contributing](#contributing)
+    - [Maintainers](#maintainers)
+  - [License](#license)
 
 ## Getting started
 
