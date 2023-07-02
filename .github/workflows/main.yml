@@ -5,12 +5,10 @@ on:
   - cron:  "0 0 1 * *"
   # manual trigger
   workflow_dispatch:
+permissions: write-all
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
-    permissions:
-      actions: write
-      pull-requests: write
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
