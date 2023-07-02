@@ -1,119 +1,84 @@
 ---
 ---
 
-Buttons:
-- `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the _data folder and adding entries that match.
-- `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
-- `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
-- `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
-- `html`: Inserts an "HTML" button redirecting to the user-specified link
-- `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `blog`: Adds a "Blog" button redirecting to the specified link
-- `code`: Adds a "Code" button redirecting to the specified link
-- `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `video`: Adds a "Video" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/video/ directory)
-- `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `website`: Adds a "Website" button redirecting to the specified link
-- `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
-- `dimensions`: Adds a [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the Dimensions' identifier here - the link is generated automatically)
+@string{aps = {American Physical Society,}}
 
-@phdthesis{domingues_inferring_2021,
-	address = {Rio de Janeiro, Brazil},
-	title = {Inferring and {Explaining} {Potential} {Citations} to {Binding} {Precedents} in {Brazilian} {Supreme} {Court} {Decisions}},
-	url = {http://bibliotecadigital.fgv.br:80/dspace/handle/10438/31845},
-	abstract = {The Brazilian Supreme Court (STF) is the highest law court in Brazil and it is primarily responsible for guarding the Brazilian Constitution. To reduce judicial insecurity and the high Court’s workload, a Constitutional Amendment from 2004 allowed STF to create binding precedents (“Súmulas Vinculantes,” BPs). A BP is a statement that consolidates the understanding of STF about a legal matter and has mandatory application for lower branches of the Judiciary. Frequently, an STF Justice cites a BP in a decision, and it is trivial to search for these explicit citations using regular expressions. However, it is not trivial to assert whether a decision potentially cites the statement, in the sense of “it should have cited it, but it did not” or “it addresses a similar issue, so they are related.” This work explores machine learning and natural language processing (NLP) algorithms to infer and explain these potential citations. The inference is performed using models from classical machine learning theory and recent NLP research, and the explanation is achieved using a machine learning explainability technique. The models learn what characterizes a citation through training on documents with explicit citations, in which we demonstrate they achieve high performance. We present two case studies that demonstrate the usefulness of the trained models to search for potential citations when accompanied 
-by the explainability technique to inform the most relevant parts of the document for the potential citation assignment.},
-	language = {eng},
-	urldate = {2022-07-21},
-	school = {Fundação Getulio Vargas},
-	author = {Domingues, Lucas Emanuel Resck},
-	month = dec,
-	year = {2021},
-	abbr = {BSc thesis},
-	bibtex_show = true,
-	html = {https://bibliotecadigital.fgv.br/dspace/handle/10438/31845},
-	pdf = {https://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/31845/TCC%20-%20Lucas%20Emanuel%20R.%20Domingues.pdf}
+@book{einstein1956investigations,
+  bibtex_show={true},
+  title={Investigations on the Theory of the Brownian Movement},
+  author={Einstein, Albert},
+  year={1956},
+  publisher={Courier Corporation},
+  preview={brownian-motion.gif}
 }
 
-@techreport{domingues_circuits_2018,
-	address = {Varginha, Brazil},
-	type = {Scientific initiation project report},
-	title = {Circuits for {Driving} {Low} {Power} {Direct} {Current} {Motors}},
-	language = {pt},
-	institution = {Federal Center for Technological Education of Minas Gerais},
-	author = {Domingues, Lucas Emanuel Resck and Blahun, Júlia Gandini},
-	year = {2018},
-	note = {Original title in Portuguese: "Circuitos para Acionamento de Motores de Corrente Contínua de Baixa Potência"},
-	pages = {32},
-	abbr = {Report},
-	bibtex_show = true,
+@article{einstein1950meaning,
+  abbr={AJP},
+  bibtex_show={true},
+  title={The meaning of relativity},
+  author={Einstein, Albert and Taub, AH},
+  journal={American Journal of Physics},
+  volume={18},
+  number={6},
+  pages={403--404},
+  year={1950},
+  publisher={American Association of Physics Teachers}
 }
 
-@techreport{blahun_brazilian_2016,
-	address = {Varginha, Brazil},
-	type = {Scientific initiation project report},
-	title = {Brazilian {Robotics} {Olympiad} – {OBR}’2016, {Level} {II} {Practical} {Modality}},
-	language = {pt},
-	institution = {Federal Center for Technological Education of Minas Gerais},
-	author = {Blahun, Júlia Gandini and Regina, Luiza de Souza Pinto and Domingues, Lucas Emanuel Resck},
-	year = {2016},
-	note = {Original title in Portuguese: "Olimpíada Brasileira de Robótica – OBR’2016, Modalidade Prática de Nível II"},
-	pages = {13},
-	abbr = {Report},
-	bibtex_show = true,
+@article{PhysRev.47.777,
+  abbr={PhysRev},
+  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+  author={Einstein, A. and Podolsky, B. and Rosen, N.},
+  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+  journal={Phys. Rev.},
+  volume={47},
+  issue={10},
+  pages={777--780},
+  numpages={0},
+  year={1935},
+  month={May},
+  publisher=aps,
+  doi={10.1103/PhysRev.47.777},
+  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf={example_pdf.pdf},
+  altmetric={248277},
+  dimensions={true},
+  selected={true}
 }
 
-@inproceedings{pereira_distill_2023-1,
-	address = {Valencia, Spain},
-	series = {Proceedings of {Machine} {Learning} {Research}},
-	title = {Distill n’ {Explain}: explaining graph neural networks using simple surrogates},
-	volume = {206},
-	shorttitle = {Distill n’ {Explain}},
-	url = {https://proceedings.mlr.press/v206/pereira23a.html},
-	abstract = {Explaining node predictions in graph neural networks (GNNs) often boils down to finding graph substructures that preserve predictions. Finding these structures usually implies back-propagating through the GNN, bonding the complexity (e.g., number of layers) of the GNN to the cost of explaining it. This naturally begs the question: Can we break this bond by explaining a simpler surrogate GNN? To answer the question, we propose Distill n’ Explain (DnX). First, DnX learns a surrogate GNN via knowledge distillation. Then, DnX extracts node or edge-level explanations by solving a simple convex program. We also propose FastDnX, a faster version of DnX that leverages the linear decomposition of our surrogate model. Experiments show that DnX and FastDnX often outperform state-of-the-art GNN explainers while being orders of magnitude faster. Additionally, we support our empirical findings with theoretical results linking the quality of the surrogate model (i.e., distillation error) to the faithfulness of explanations.},
-	language = {en},
-	urldate = {2023-04-30},
-	booktitle = {Proceedings of {The} 26th {International} {Conference} on {Artificial} {Intelligence} and {Statistics}},
-	publisher = {PMLR},
-	author = {Pereira, Tamara and Nascimento, Erik and Resck, Lucas E. and Mesquita, Diego and Souza, Amauri},
-	month = apr,
-	year = {2023},
-	pages = {6199--6214},
-	abbr = {AISTATS 2023},
-	arxiv = {2303.10139},
-	bibtex_show = true,
-	html = {https://proceedings.mlr.press/v206/pereira23a.html},
-	pdf = {https://proceedings.mlr.press/v206/pereira23a/pereira23a.pdf},
-	code = {https://github.com/tamararruda/DnX},
-	poster = {publications/pereira_distill_2023-1_poster.pdf},
-	video = {https://youtu.be/DsTpJfjz6BQ},
-	selected = {true},
+@article{einstein1905molekularkinetischen,
+  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
+  author={Einstein, A.},
+  journal={Annalen der physik},
+  volume={322},
+  number={8},
+  pages={549--560},
+  year={1905},
+  publisher={Wiley Online Library}
 }
 
-@article{resck_legalvis_2023,
-	title = {{LegalVis}: {Exploring} and {Inferring} {Precedent} {Citations} in {Legal} {Documents}},
-	volume = {29},
-	issn = {1941-0506},
-	shorttitle = {{LegalVis}},
-	url = {https://doi.org/10.1109/TVCG.2022.3152450},
-	doi = {10.1109/TVCG.2022.3152450},
-	abstract = {To reduce the number of pending cases and conflicting rulings in the Brazilian Judiciary, the National Congress amended the Constitution, allowing the Brazilian Supreme Court (STF) to create binding precedents (BPs), i.e., a set of understandings that both Executive and lower Judiciary branches must follow. The STF’s justices frequently cite the 58 existing BPs in their decisions, and it is of primary relevance that judicial experts could identify and analyze such citations. To assist in this problem, we propose LegalVis, a web-based visual analytics system designed to support the analysis of legal documents that cite or could potentially cite a BP. We model the problem of identifying potential citations (i.e., non-explicit) as a classification problem. However, a simple score is not enough to explain the results; that is why we use an interpretability machine learning method to explain the reason behind each identified citation. For a compelling visual exploration of documents and BPs, LegalVis comprises three interactive visual components: the first presents an overview of the data showing temporal patterns, the second allows filtering and grouping relevant documents by topic, and the last one shows a document’s text aiming to interpret the model’s output by pointing out which paragraphs are likely to mention the BP, even if not explicitly specified. We evaluated our identification model and obtained an accuracy of 96\%; we also made a quantitative and qualitative analysis of the results. The usefulness and effectiveness of LegalVis were evaluated through two usage scenarios and feedback from six domain experts.},
-	language = {English},
-	number = {6},
-	urldate = {2023-05-15},
-	journal = {IEEE Transactions on Visualization and Computer Graphics},
-	author = {Resck, Lucas E. and Ponciano, Jean R. and Nonato, Luis Gustavo and Poco, Jorge},
-	month = jun,
-	year = {2023},
-	note = {Presented at IEEE VIS: Visualization \& Visual Analytics 2022. Date of Publication: 18 February 2022},
-	keywords = {Data visualization, Task analysis, Visual analytics, Law, Natural language processing, Legal documents, natural language processing, Analytical models, Text analysis, Brazilian legal system, visual analytics},
-	pages = {3105--3120},
-	abbr = {TVCG 2023},
-	arxiv = {2203.02001},
-	bibtex_show = true,
-	html = {https://doi.org/10.1109/TVCG.2022.3152450},
-	pdf = {https://arxiv.org/pdf/2203.02001.pdf},
-	video = {https://www.youtube.com/watch?v=0qY_NxLSGBk&t=26071s},
-	selected = {true},
+@article{einstein1905movement,
+  abbr={Ann. Phys.},
+  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
+  author={Einstein, A.},
+  journal={Ann. Phys.},
+  volume={17},
+  pages={549--560},
+  year={1905}
+}
+
+@article{einstein1905electrodynamics,
+  title={On the electrodynamics of moving bodies},
+  author={Einstein, A.},
+  year={1905}
+}
+
+@book{przibram1967letters,
+  bibtex_show={true},
+  title={Letters on wave mechanics},
+  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+  year={1967},
+  publisher={Vision},
+  preview={wave-mechanics.gif}
 }
