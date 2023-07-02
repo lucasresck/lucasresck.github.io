@@ -1,195 +1,97 @@
-- title: Personal Information
+- title: General Information
   type: map
   contents:
-    - name: Name
-      value: Lucas Emanuel Resck
-    # - name: Date of Birth
-    #   value: 14th March 1879
-    - name: Position
-      value: MSc student in Mathematical Modeling
-    - name: School
-      value: School of Applied Mathematics of Fundação Getulio Vargas (FGV EMAp)
-    - name: Place
-      value: Rio de Janeiro, Brazil
+    - name: Full Name
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
     - name: Languages
-      value: English (fluent), Portuguese (native)
-    - name: Email
-      value: <a href="mailto:lucas.resck@fgv.br">lucas.resck@fgv.br</a>
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    # - title: PhD
-    #   institution: University of Zurich, Zurich, Switzerland
-    #   year: 1905
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
-    #     - title: Description 3.
-    #       contents:
-    #         - Sub-description 1.
-    #         - Sub-description 2.
-    - title: MSc, Mathematical Modeling
-      institution: School of Applied Mathematics of Fundação Getulio Vargas (FGV EMAp)
-      year: 2022 - present
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Rio de Janeiro -- RJ, Brazil
-        - Scholarship holder at FGV EMAp
-        - 'Advisor: <a href="https://emap.fgv.br/professores/jorge-poco">Jorge Poco</a>'
-
-    - title: BSc, Applied Mathematics
-      institution: School of Applied Mathematics of Fundação Getulio Vargas (FGV EMAp)
-      year: 2018 - 2021
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - Rio de Janeiro -- RJ, Brazil
-        - Scholarship holder at the Center for the Development of Mathematics and Sciences (CDMC) of FGV
-        - "Final grade: 9.66/10 --- academic distinguished undergraduate award"
-        - 'Thesis: <a href="https://bibliotecadigital.fgv.br/dspace/handle/10438/31845">Inferring and Explaining Potential Citations to Binding Precedents in Brazilian Supreme Court Decisions</a>'
-        - 'Advisor: <a href="https://emap.fgv.br/professores/jorge-poco">Jorge Poco</a>'
+        - Description 1.
+        - Description 2.
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
-
-#     - title: Director
-#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-#       year: 1917-1933
-
-#     - title: Professor of Theoretical Physics
-#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-#       year: 1911 - 1917
-#       description:
-
-#     - title: Associate Professor of Theoretical Physics
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1909 - 1911
-
-- title: Academic Experience
+- title: Experience
   type: time_table
   contents:
-    - title: Master's Researcher
-      institution: <a href="http://visualdslab.com/">Visual Data Science Lab</a>
-      year: 02/2022 - present
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - Fundação Getulio Vargas, Rio de Janeiro, Brazil
-        - "Research topics: machine learning, natural language processing, machine learning explainability"
-        - 'Supervisor: <a href="https://emap.fgv.br/professores/jorge-poco">Jorge Poco</a>'
-    - title: Visiting Scholar
-      institution: <a href="https://vislang.ai/">Vision, Language, and Learning Lab</a>
-      year: 10/2022 - 12/2022
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - Department of Computer Science of Rice University, Houston, USA
-        - "Research topics: training data attribution, machine learning, natural language processing, machine learning explainability, computer vision"
-        - 'Supervisor: <a href="https://www.cs.rice.edu/~vo9/">Vicente Ordóñez</a>'
-    - title: Scientific Initiation Researcher
-      institution: <a href="http://visualdslab.com/">Visual Data Science Lab</a>
-      year: 09/2020 - 02/2022
-      description:
-        - Fundação Getulio Vargas, Rio de Janeiro, Brazil
-        - "Research topics: machine learning, data science, natural language processing"
-        - 'Supervisor: <a href="https://emap.fgv.br/professores/jorge-poco">Jorge Poco</a>'
+        - Description 1.
+        - Description 2.
 
-- title: Professional Experience
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
   type: time_table
   contents:
-    - title: Summer Intern in Data Science
-      institution: EloGroup
-      year: 12/2019 - 02/2020
-    - title: Summer Intern in Optimization
-      institution: PSR Power Systems Research
-      year: 01/2019 - 02/2019
-
-- title: Pedagogical Experience
-  type: time_table
-  contents:
-    - title: Professor of Introduction to Programming
-      institution: Educational Development Institute (IDE) of Fundação Getulio Vargas
-      year: 01/2023 - present
-      description:
-        - "Course: Web Systems Development"
-    - title: Teaching Assistance
-      institution: Fundação Getulio Vargas
-      year: 2020 - 2021
-      description:
-        - "Courses: Ordinary Differential Equations, Calculus in Several Variables, Calculus in One Variable"
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Research Projects
-  type: time_table
-  contents:
-    - title: Similarity Analysis in Decisions of the Brazilian Supreme Court
-      year: 2022 - present
-      description:
-        - FGV EMAp
-    - title: Topological Data Analysis in Legal Documents
-      year: 2020 - 2021
-      description:
-        - FGV EMAp
-        - Resulted in paper <a href="https://doi.org/10.1109/TVCG.2022.3152450">LegalVis</a>
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 05/2022 - 02/2023
-      items:
-      - Scholarship (tuition fee) holder in the Graduate Support Program for Private Education Institutions (PROSUP) of the Coordination for the Improvement of Higher Education Personnel (CAPES).
-    - year: 04/2022
+    - year: 1921
       items: 
-        - Academic distinguished undergraduate award.
-    - year: 2022 - present
-      items:
-        - MSc scholarship holder at FGV EMAp.
-    - year: 08/2018 - 07/2021
-      items:
-        - Scholarship holder in the Scientific Initiation and Master's Program (PICME) of the Brazilian Public School Mathematics Olympiad (OBMEP).
-    - year: 2018 - 2021
-      items:
-        - Selected by the Talent Selection program from the Center for the Development of Mathematics and Sciences (CDMC) of FGV. BSc scholarship holder.
-    - year: 2017
-      items:
-        - 1st place at FGV EMAp's entrance exam.
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
+      items: 
+        - Max Planck Medal
 
-- title: Complete CV
-  type: note
+- title: Academic Interests
+  type: nested_list
   contents:
-    - This page is a summary of my CV. You can download my complete CV <a href=https://lucasresck.github.io/assets/pdf/cv.pdf>here</a>.
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
 
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
-
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
