@@ -5,7 +5,8 @@ on:
   - cron:  "0 0 1 * *"
   # manual trigger
   workflow_dispatch:
-permissions: write-all
+permissions:
+  workflows: write
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
