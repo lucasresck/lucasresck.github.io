@@ -88,14 +88,14 @@
       year: 02/2022 - present
       description:
         - Fundação Getulio Vargas, Rio de Janeiro, Brazil
-        - "Research topics: machine learning, natural language processing, machine learning explainability"
+        - "Research topics: machine learning, natural language processing, explainable artificial intelligence"
         - 'Supervisor: <a href="https://emap.fgv.br/professores/jorge-poco">Jorge Poco</a>'
     - title: Visiting Scholar
       institution: <a href="https://vislang.ai/">Vision, Language, and Learning Lab</a>
       year: 10/2022 - 12/2022
       description:
         - Department of Computer Science of Rice University, Houston, USA
-        - "Research topics: training data attribution, machine learning, natural language processing, machine learning explainability, computer vision"
+        - "Research topics: training data attribution, machine learning, natural language processing, explainable artificial intelligence, computer vision"
         - 'Supervisor: <a href="https://www.cs.rice.edu/~vo9/">Vicente Ordóñez</a>'
     - title: Scientific Initiation Researcher
       institution: <a href="http://visualdslab.com/">Visual Data Science Lab</a>
