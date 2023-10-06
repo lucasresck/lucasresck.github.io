@@ -139,15 +139,40 @@
 - title: Research Projects
   type: time_table
   contents:
+    - title: Training Data Attribution
+      year: 2023 - present
+      description:
+        - FGV EMAp and Rice University
+        - Recent project on the exploration of methods to attribute model predictions to training data. Additionally, investigation of the behavior of the weights in learning and <i>unlearning</i> of neural networks.
+    - title: Legal Language Models and Topological Data Analysis
+      year: 2023 - present
+      description:
+        - FGV EMAp
+        - Recent project on the exploration of the intersection between NLP and topological data analysis in legal documents.
     - title: Similarity Analysis in Decisions of the Brazilian Supreme Court
       year: 2022 - present
       description:
         - FGV EMAp
+        - "\"LegalAnalytics\" project"
+        - Application of machine learning, NLP, explainable AI, and visualization methods for the creation of the LegalAnalytics system to assist judicial experts in the application of understandings from the Brazilian Supreme Cort (STF).
+        - Publications are expected.
+    - title: Exploration of Human Annotations to Improve NLP Model Explanations
+      year: 2021 - present
+      description:
+        - FGV EMAp
+        - This project is the my MSc thesis.
+        - Publications are expected.
+    - title: Machine Learning and Súmulas Vinculantes
+      year: 2021 - present
+      description:
+        - FGV EMAp
+        - "Exploration of computational methods, especially machine learning, NLP, and topological data analysis, in legal documents that cite Brazilian binding precedents (\"Súmulas Vinculantes\"). The project also explored the annotation of legal documents by experts."
+        - Publications are expected.
     - title: Topological Data Analysis in Legal Documents
       year: 2020 - 2021
       description:
         - FGV EMAp
-        - Resulted in paper <a href="https://doi.org/10.1109/TVCG.2022.3152450">LegalVis</a>
+        - Employment of machine learning, NLP, explainable AI, and data visualization methods to create the LegalVis data visualization system to infer and explore citations in legal documents (<a href="https://doi.org/10.1109/TVCG.2022.3152450">publication</a>). Topological data analysis was considered in future work.
 
 - title: Honors and Awards
   type: time_table
