@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Lucas
 middle_name: Emanuel
 last_name: Resck
-email: lucas.resck@fgv.br
+email: lucas.domingues@fgv.edu.br
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My personal academic website. Based on [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme.
 footer_text: >
@@ -105,7 +105,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Email is the best way to reach me: <a href="mailto:lucas.resck@fgv.br">lucas.resck@fgv.br</a>. Feel free to send me a message!
+  Email is the best way to reach me: <a href="mailto:lucas.domingues@fgv.edu.br">lucas.domingues@fgv.edu.br</a>. Feel free to send me a message!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
