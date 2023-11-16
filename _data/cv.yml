@@ -3,221 +3,56 @@
   contents:
     - name: Name
       value: Lucas Emanuel Resck
-    # - name: Date of Birth
-    #   value: 14th March 1879
     - name: Position
       value: MSc student in Mathematical Modeling
     - name: School
-      value: School of Applied Mathematics of Fundação Getulio Vargas (FGV EMAp)
+      value: Fundação Getulio Vargas
     - name: Place
       value: Rio de Janeiro, Brazil
-    - name: Languages
-      value: English (fluent), Portuguese (native)
     - name: Email
       value: <a href="mailto:lucas.resck@fgv.br">lucas.resck@fgv.br</a>
+    - name: Research interests
+      value: <b>Machine Learning</b> (ML), <b>Natural Language Processing</b> (NLP), and <b>Explainable Artificial Intelligence</b> (XAI). I am particularly interested in improving the degree of explainability of ML and NLP models.
 
 - title: Education
   type: time_table
   contents:
-    # - title: PhD
-    #   institution: University of Zurich, Zurich, Switzerland
-    #   year: 1905
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
-    #     - title: Description 3.
-    #       contents:
-    #         - Sub-description 1.
-    #         - Sub-description 2.
     - title: MSc, Mathematical Modeling
-      institution: School of Applied Mathematics of Fundação Getulio Vargas (FGV EMAp)
+      institution: Fundação Getulio Vargas
       year: 2022 - present
       description:
-        - Rio de Janeiro -- RJ, Brazil
-        - Scholarship holder at FGV EMAp
-        - 'Advisor: <a href="https://emap.fgv.br/professores/jorge-poco">Jorge Poco</a>'
+        - "Advisor: Jorge Poco"
 
     - title: BSc, Applied Mathematics
-      institution: School of Applied Mathematics of Fundação Getulio Vargas (FGV EMAp)
+      institution: Fundação Getulio Vargas
       year: 2018 - 2021
       description:
-        - Rio de Janeiro -- RJ, Brazil
-        - Scholarship holder at the Center for the Development of Mathematics and Sciences (CDMC) of FGV
-        - "Final grade: 9.66/10 --- academic distinguished undergraduate award"
-        - 'Thesis: <a href="https://bibliotecadigital.fgv.br/dspace/handle/10438/31845">Inferring and Explaining Potential Citations to Binding Precedents in Brazilian Supreme Court Decisions</a>'
-        - 'Advisor: <a href="https://emap.fgv.br/professores/jorge-poco">Jorge Poco</a>'
-
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
-
-#     - title: Director
-#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-#       year: 1917-1933
-
-#     - title: Professor of Theoretical Physics
-#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-#       year: 1911 - 1917
-#       description:
-
-#     - title: Associate Professor of Theoretical Physics
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1909 - 1911
-
-- title: Academic Experience
+        - "GPA: 9.66/10 (lowest passing grade of 6)"
+        - "Thesis: Inferring and Explaining Potential Citations to Binding Precedents in Brazilian Supreme Court Decisions"
+        - "Advisor: Jorge Poco"
+        
+- title: Research Experience
   type: time_table
   contents:
-    - title: Master's Researcher
+    - title: Master's and Undergraduate Researcher
       institution: <a href="http://visualdslab.com/">Visual Data Science Lab</a>
-      year: 02/2022 - present
+      year: 2020 - present
       description:
-        - Fundação Getulio Vargas, Rio de Janeiro, Brazil
-        - "Research topics: machine learning, natural language processing, explainable artificial intelligence"
-        - 'Supervisor: <a href="https://emap.fgv.br/professores/jorge-poco">Jorge Poco</a>'
-    - title: Visiting Scholar
+        - Fundação Getulio Vargas
+        - "Supervisor: Jorge Poco"
+        - Development of a new Graph Neural Network (GNN) explanation method with theoretical guarantees (presented at AISTATS 2023);
+        - Employment of ML, NLP, XAI, and data visualization to create visual-analytics systems to solve legal problems (published at TVCG, presented at VIS 2022, BSc Thesis); 
+        - Incorporation of human annotations to improve NLP model explanations (under review at ACL Rolling Review, ongoing MSc thesis);
+        - Recent exploration of training data attribution methods and ways to improve them;
+        - Recent exploration of the intersection between NLP and topological data analysis in legal documents.
+    - title: Visiting Scholar (3 months)
       institution: <a href="https://vislang.ai/">Vision, Language, and Learning Lab</a>
-      year: 10/2022 - 12/2022
+      year: 2022
       description:
-        - Department of Computer Science of Rice University, Houston, USA
-        - "Research topics: training data attribution, machine learning, natural language processing, explainable artificial intelligence, computer vision"
-        - 'Supervisor: <a href="https://www.cs.rice.edu/~vo9/">Vicente Ordóñez</a>'
-    - title: Undergraduate Researcher
-      institution: <a href="http://visualdslab.com/">Visual Data Science Lab</a>
-      year: 09/2020 - 02/2022
-      description:
-        - Fundação Getulio Vargas, Rio de Janeiro, Brazil
-        - "Research topics: machine learning, data science, natural language processing"
-        - 'Supervisor: <a href="https://emap.fgv.br/professores/jorge-poco">Jorge Poco</a>'
-
-- title: Professional Experience
-  type: time_table
-  contents:
-    - title: Summer Intern in Data Science
-      institution: EloGroup
-      year: 12/2019 - 02/2020
-    - title: Summer Intern in Optimization
-      institution: PSR Power Systems Research
-      year: 01/2019 - 02/2019
-
-- title: Pedagogical Experience
-  type: time_table
-  contents:
-    - title: Professor of Introduction to Programming
-      institution: Educational Development Institute (IDE) of Fundação Getulio Vargas
-      year: 01/2023 - 04/2023
-      description:
-        - "Course: Web Systems Development"
-    - title: Teaching Assistance
-      institution: Fundação Getulio Vargas
-      year: 2020 - 2021
-      description:
-        - "Courses: Ordinary Differential Equations, Calculus in Several Variables, Calculus in One Variable"
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Research Projects
-  type: time_table
-  contents:
-    - title: Training Data Attribution
-      year: 2023 - present
-      description:
-        - FGV EMAp and Rice University
-        - Recent project on the exploration of methods to attribute model predictions to training data. Additionally, investigation of the behavior of the weights in learning and <i>unlearning</i> of neural networks.
-    - title: Legal Language Models and Topological Data Analysis
-      year: 2023 - present
-      description:
-        - FGV EMAp
-        - Recent project on the exploration of the intersection between NLP and topological data analysis in legal documents.
-    - title: Similarity Analysis in Decisions of the Brazilian Supreme Court
-      year: 2022 - present
-      description:
-        - FGV EMAp
-        - "\"LegalAnalytics\" project"
-        - Application of machine learning, NLP, explainable AI, and visualization methods for the creation of the LegalAnalytics system to assist judicial experts in the application of understandings from the Brazilian Supreme Cort (STF).
-        - Publications are expected.
-    - title: Exploration of Human Annotations to Improve NLP Model Explanations
-      year: 2021 - present
-      description:
-        - FGV EMAp
-        - This project is the my MSc thesis.
-        - Publications are expected.
-    - title: Machine Learning and Súmulas Vinculantes
-      year: 2021 - present
-      description:
-        - FGV EMAp
-        - "Exploration of computational methods, especially machine learning, NLP, and topological data analysis, in legal documents that cite Brazilian binding precedents (\"Súmulas Vinculantes\"). The project also explored the annotation of legal documents by experts."
-        - Publications are expected.
-    - title: Topological Data Analysis in Legal Documents
-      year: 2020 - 2021
-      description:
-        - FGV EMAp
-        - Employment of machine learning, NLP, explainable AI, and data visualization methods to create the LegalVis data visualization system to infer and explore citations in legal documents (<a href="https://doi.org/10.1109/TVCG.2022.3152450">publication</a>). Topological data analysis was considered in future work.
-
-- title: Honors, Awards, & Scholarships
-  type: time_table
-  contents:
-    - year: 02/2023
-      items:
-      - "Invited speaker at Colégio União, Três Corações, Brazil. Presentation \"How the mathematics olympiads transformed my life\" to motivate students at the invitation of professor Aguinaldo Borba."
-    - year: 05/2022 - 02/2023
-      items:
-      - Scholarship (tuition fee) holder in the Graduate Support Program for Private Education Institutions (PROSUP) of the Coordination for the Improvement of Higher Education Personnel (CAPES).
-    - year: 04/2022
-      items: 
-        - Academic distinguished undergraduate award.
-    - year: 2022 - present
-      items:
-        - MSc scholarship holder at FGV EMAp.
-    - year: 08/2018 - 07/2021
-      items:
-        - Scholarship holder in the Undergraduate Research and Master's Program (PICME) of the Brazilian Public School Mathematics Olympiad (OBMEP).
-    - year: 2018 - 2021
-      items:
-        - Selected by the Talent Selection program from the Center for the Development of Mathematics and Sciences (CDMC) of FGV. BSc scholarship holder.
-    - year: 2017
-      items:
-        - 1st place at FGV EMAp's entrance exam.
+        - "Supervisor: Vicente Ordóñez"
+        - Exploration of training data attribution methods, e.g., influence functions, and ways to improve them. These activities continued after the visit.
 
 - title: Complete CV
   type: note
   contents:
-    - This page is a summary of my CV. You can download my complete CV <a href=https://lucasresck.github.io/assets/pdf/cv.pdf>here</a>.
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
-
+    - This page is a summary of my CV. For research projects, teaching experience, etc., you can download my complete CV in PDF <a href=https://lucasresck.github.io/assets/pdf/cv.pdf>here</a>.
