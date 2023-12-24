@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  address: >
+  more_info: >
     <p>Fundação Getulio Vargas</p>
     <p>190 Praia de Botafogo</p>
     <p>Rio de Janeiro 22250</p>
