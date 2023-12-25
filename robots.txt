@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /projects/
 Disallow: /teaching/
 Disallow: /blog/
+Disallow: /people/
 
 Sitemap: https://lucasresck.github.io/sitemap.xml
