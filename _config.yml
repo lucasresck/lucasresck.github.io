@@ -235,6 +235,10 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "blog"
+    values:
+      sitemap: false
 
 sass:
   style: compressed
