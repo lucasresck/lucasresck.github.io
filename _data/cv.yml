@@ -46,7 +46,7 @@
         - "Supervisor: Vicente Ordóñez"
         - Explored training data attribution methods, e.g., influence functions, and ways to improve them. This activity continued after the visit.
 
-- title: Complete CV
-  type: note
-  contents:
-    - This page is a summary of my CV. For other/ongoing research projects, teaching experience, etc., you can download my complete CV in PDF <a href=https://lucasresck.github.io/assets/pdf/cv.pdf>here</a>.
+# - title: Complete CV
+#   type: note
+#   contents:
+#     - This page is a summary of my CV. For other/ongoing research projects, teaching experience, etc., you can download my complete CV in PDF <a href=https://lucasresck.github.io/assets/pdf/cv.pdf>here</a>.
