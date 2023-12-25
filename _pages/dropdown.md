@@ -4,6 +4,7 @@ title: submenus
 nav: false
 nav_order: 7
 dropdown: true
+sitemap: false
 children:
     - title: publications
       permalink: /publications/
