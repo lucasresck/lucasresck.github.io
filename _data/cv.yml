@@ -1,8 +1,8 @@
 - title: Personal Information
   type: map
   contents:
-    - name: Name
-      value: Lucas Emanuel Resck
+    - name: Full name
+      value: Lucas Emanuel Resck Domingues
     - name: Position
       value: MSc student in Mathematical Modeling
     - name: School
