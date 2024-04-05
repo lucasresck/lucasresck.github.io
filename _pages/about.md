@@ -24,7 +24,7 @@ Hi there! 👋
 
 I'm an MSc student in Mathematical Modeling at the [School of Applied Mathematics](https://emap.fgv.br/en/school) at Fundação Getulio Vargas (FGV), Rio de Janeiro, Brazil, and I'm **actively seeking PhD opportunities**.
 
-Check my [publications](https://lucasresck.github.io/publications/) at **AISTATS** and **TVCG**!
+Check my [publications](https://lucasresck.github.io/publications/) at **NAACL Findings**, **AISTATS**, and **TVCG**!
 
 I hold a BSc in Applied Mathematics at FGV (2021) and I'm a member of the [Visual Data Science Lab](http://visualdslab.com/) at FGV (since 2020), where I develop research in NLP and XAI. In 2022, I visited the [Vision, Language, and Learning Lab](https://vislang.ai/) at Rice University, Houston, to develop research ideas in XAI. I also have experience in projects applying ML, NLP, XAI, and Data Visualization in legal problems.
 
