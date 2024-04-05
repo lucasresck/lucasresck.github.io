@@ -117,3 +117,23 @@ by the explainability technique to inform the most relevant parts of the documen
 	video = {https://www.youtube.com/watch?v=0qY_NxLSGBk&t=26071s},
 	selected = {true},
 }
+
+@inproceedings{resck_exploring_2024,
+	address = {Mexico City, Mexico},
+	title = {Exploring the {Trade}-off {Between} {Model} {Performance} and {Explanation} {Plausibility} of {Text} {Classifiers} {Using} {Human} {Rationales}},
+	copyright = {Copyright © 2024 Association for Computational Linguists (ACL). Licensed under the CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/). Disclaimer: No warranties are given. The ACL shall not be liable for any damages arising from the use of this article.},
+	url = {https://arxiv.org/abs/2404.03098},
+	abstract = {Saliency post-hoc explainability methods are important tools for understanding increasingly complex NLP models. While these methods can reflect the model's reasoning, they may not align with human intuition, making the explanations not plausible. In this work, we present a methodology for incorporating rationales, which are text annotations explaining human decisions, into text classification models. This incorporation enhances the plausibility of post-hoc explanations while preserving their faithfulness. Our approach is agnostic to model architectures and explainability methods. We introduce the rationales during model training by augmenting the standard cross-entropy loss with a novel loss function inspired by contrastive learning. By leveraging a multi-objective optimization algorithm, we explore the trade-off between the two loss functions and generate a Pareto-optimal frontier of models that balance performance and plausibility. Through extensive experiments involving diverse models, datasets, and explainability methods, we demonstrate that our approach significantly enhances the quality of model explanations without causing substantial (sometimes negligible) degradation in the original model's performance.},
+	urldate = {2024-04-05},
+	booktitle = {Findings of the {Association} for {Computational} {Linguistics}: {NAACL} 2024},
+	publisher = {Association for Computational Linguistics},
+	author = {Resck, Lucas E. and Raimundo, Marcos M. and Poco, Jorge},
+	month = jun,
+	year = {2024},
+	note = {To appear},
+	abbr = {NAACL<br>Findings 2024},
+	arxiv = {2404.03098},
+	bibtex_show = true,
+	pdf = {https://arxiv.org/pdf/2404.03098.pdf},
+	code = {https://github.com/visual-ds/plausible-nlp-explanations},
+}
