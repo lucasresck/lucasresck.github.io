@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! 👋
 
-I'm an MSc student in Mathematical Modeling at the [School of Applied Mathematics](https://emap.fgv.br/en/school) at Fundação Getulio Vargas (FGV), Rio de Janeiro, Brazil, and I'm **actively seeking PhD opportunities**.
+I'm an MSc student in Mathematical Modeling at the [School of Applied Mathematics](https://emap.fgv.br/en/school) at Fundação Getulio Vargas (FGV), Rio de Janeiro, Brazil.
 
 Check my [publications](https://lucasresck.github.io/publications/) at **NAACL Findings**, **AISTATS**, and **TVCG**!
 
