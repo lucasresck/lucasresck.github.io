@@ -144,3 +144,22 @@ by the explainability technique to inform the most relevant parts of the documen
 	video = {https://youtu.be/P3X6Axtq7CY},
 	slides = {publications/resck_exploring_2024_slides.pdf},
 }
+
+@mastersthesis{domingues_balancing_2024,
+	address = {Rio de Janeiro, Brazil},
+	title = {Balancing performance and explanation plausibility: a multi-objective approach to text classification with human rationales},
+	shorttitle = {Balancing performance and explanation plausibility},
+	url = {https://hdl.handle.net/10438/35362},
+	abstract = {Saliency post-hoc explainability methods are important tools for understanding increasingly complex NLP models. While these methods can reflect the model's reasoning, they may not align with human intuition, making the explanations not plausible. In this work, we present a methodology for incorporating rationales, which are text annotations explaining human decisions, into text classification models. This incorporation enhances the plausibility of post-hoc explanations while preserving their faithfulness. Our approach is agnostic to model architectures and explainability methods. We introduce the rationales during model training by augmenting the standard cross-entropy loss with a novel loss function inspired by contrastive learning. By leveraging a multi-objective optimization algorithm, we explore the trade-off between the two loss functions and generate a Pareto-optimal frontier of models that balance performance and plausibility. Through extensive experiments involving diverse models, datasets, and explainability methods, we demonstrate that our approach significantly enhances the quality of model explanations without causing substantial (sometimes negligible) degradation in the original model's performance.},
+	language = {eng},
+	urldate = {2024-07-04},
+	school = {Fundação Getulio Vargas},
+	author = {Domingues, Lucas Emanuel Resck},
+	month = may,
+	year = {2024},
+	abbr = {MSc thesis},
+	bibtex_show = true,
+	html = {https://hdl.handle.net/10438/35362},
+	pdf = {https://repositorio.fgv.br/server/api/core/bitstreams/eb8738f8-1935-4e41-92bc-465a6230f0ee/content},
+	code = {https://github.com/visual-ds/plausible-nlp-explanations},
+}
