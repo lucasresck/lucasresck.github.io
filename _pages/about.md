@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSc student at <a href='https://emap.fgv.br/en/school'>Fundação Getulio Vargas</a>, Brazil
+subtitle: Incoming PhD Student at the University of Cambridge
 
 profile:
   align: right
@@ -20,15 +20,29 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! 👋
+I am an incoming PhD student in Computation, Cognition, and Language at the
+**University of Cambridge**, where I will be supervised by
+[Prof. Anna Korhonen](https://www.cl.cam.ac.uk/~alk23/).
+I am a recipient of the prestigious Cambridge International Scholarship,
+funded by the Cambridge Trust, and part of the
+[ELLIS PhD Program](https://ellis.eu/phd-postdoc).
 
-I'm an MSc student in Mathematical Modeling at the [School of Applied Mathematics](https://emap.fgv.br/en/school) at Fundação Getulio Vargas (FGV), Rio de Janeiro, Brazil.
+Currently, I am a researcher at the
+[Visual Data Science Lab](http://visualdslab.com/) at Fundação Getulio Vargas
+(FGV) in Rio de Janeiro, Brazil.
+Since joining the lab in 2020, I have been conducting research in machine
+learning (ML), natural language processing (NLP), and explainable AI (XAI).
+I hold an MSc in Mathematical Modeling (2024) and a BSc in Applied Mathematics
+(2021), both from the
+[School of Applied Mathematics](https://emap.fgv.br/en/school) at FGV.
 
-Check my [publications](https://lucasresck.github.io/publications/) at **NAACL Findings**, **AISTATS**, and **TVCG**!
+In 2022, I was a visiting researcher at the
+[Vision, Language, and Learning Lab](https://vislang.ai/) at Rice University,
+Houston, where I focused on developing research ideas in XAI.
+Additionally, I have experience applying ML, NLP, XAI, and data visualization
+techniques to address challenges in the legal domain.
 
-I hold a BSc in Applied Mathematics at FGV (2021) and I'm a member of the [Visual Data Science Lab](http://visualdslab.com/) at FGV (since 2020), where I develop research in NLP and XAI. In 2022, I visited the [Vision, Language, and Learning Lab](https://vislang.ai/) at Rice University, Houston, to develop research ideas in XAI. I also have experience in projects applying ML, NLP, XAI, and Data Visualization in legal problems.
-
-Research interests:
-  - **Machine Learning** (ML)
-  - **Natural Language Processing** (NLP)
-  - **Explainable AI** (XAI)
+**Research interests:**
+- Machine Learning (ML)
+- Natural Language Processing (NLP)
+- Explainable AI (XAI)
