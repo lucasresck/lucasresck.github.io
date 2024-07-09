@@ -175,7 +175,7 @@ announcements:
   enabled: true
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   # Scroll does not work
-  limit: 6 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
