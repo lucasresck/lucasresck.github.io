@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an incoming PhD student in Computation, Cognition, and Language at the
+I am an incoming PhD student in Computation, Cognition and Language at the
 **University of Cambridge**, where I will be supervised by
 [Prof. Anna Korhonen](https://www.cl.cam.ac.uk/~alk23/).
 I am a recipient of the prestigious Cambridge International Scholarship,
