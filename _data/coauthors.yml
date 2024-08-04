@@ -2,7 +2,7 @@
 # J. Poco
 # J Poco
 
-"Poco":
+"poco":
   - firstname: ["Jorge", "J.", "J"]
     url: http://visualdslab.com/~jpocom/
 
@@ -10,6 +10,6 @@
 # D. Mesquita
 # D Mesquita
 
-"Mesquita":
+"mesquita":
   - firstname: [Diego, D., D]
     url: https://weakly-informative.github.io/
