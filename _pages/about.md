@@ -36,8 +36,3 @@ In 2022, I was a visiting researcher at the
 Houston, where I focused on developing research ideas in XAI.
 Additionally, I have experience applying ML, NLP, XAI, and data visualization
 techniques to address challenges in the legal domain.
-
-**Research interests:**
-- Machine Learning (ML)
-- Natural Language Processing (NLP)
-- Explainable AI (XAI)
