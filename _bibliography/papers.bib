@@ -2,21 +2,31 @@
 ---
 
 Buttons:
-- `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the _data folder and adding entries that match.
+- `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the \_data folder and adding entries that match.
 - `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
+- `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
+- `annotation`: Adds a popover info message to the end of the author list that can potentially be used to clarify superscripts. HTML is allowed.
 - `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
 - `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
-- `html`: Inserts an "HTML" button redirecting to the user-specified link
-- `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
 - `blog`: Adds a "Blog" button redirecting to the specified link
 - `code`: Adds a "Code" button redirecting to the specified link
-- `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `video`: Adds a "Video" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/video/ directory)
-- `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `website`: Adds a "Website" button redirecting to the specified link
-- `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
 - `dimensions`: Adds a [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the Dimensions' identifier here - the link is generated automatically)
+- `html`: Inserts an "HTML" button redirecting to the user-specified link
+- `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `video`: Adds a "Video" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/video/ directory)
+- `website`: Adds a "Website" button redirecting to the specified link
+
+Extra:
+- `preview`
+- `google_scholar_id`'
+- `additional_info`
+- `award`
+- `award_name`
+- `eprint`
+
 
 @phdthesis{domingues_inferring_2021,
 	address = {Rio de Janeiro, Brazil},
@@ -33,7 +43,8 @@ by the explainability technique to inform the most relevant parts of the documen
 	abbr = {BSc thesis},
 	bibtex_show = true,
 	html = {https://hdl.handle.net/10438/31845},
-	pdf = {https://repositorio.fgv.br/server/api/core/bitstreams/a1a7d243-3f54-4557-8b4f-35665db72af9/content}
+	pdf = {https://repositorio.fgv.br/server/api/core/bitstreams/a1a7d243-3f54-4557-8b4f-35665db72af9/content},
+	google_scholar_id = {_FxGoFyzp5QC},
 }
 
 @techreport{domingues_circuits_2018,
@@ -44,10 +55,11 @@ by the explainability technique to inform the most relevant parts of the documen
 	institution = {Federal Center for Technological Education of Minas Gerais},
 	author = {Domingues, Lucas Emanuel Resck and Blahun, Júlia Gandini},
 	year = {2018},
-	note = {Original title in Portuguese: "Circuitos para Acionamento de Motores de Corrente Contínua de Baixa Potência"},
+	additional_info = {*Original title in Portuguese: "Circuitos para Acionamento de Motores de Corrente Contínua de Baixa Potência"*},
 	pages = {32},
 	abbr = {Report},
 	bibtex_show = true,
+	google_scholar_id = {roLk4NBRz8UC},
 }
 
 @techreport{blahun_brazilian_2016,
@@ -58,10 +70,11 @@ by the explainability technique to inform the most relevant parts of the documen
 	institution = {Federal Center for Technological Education of Minas Gerais},
 	author = {Blahun, Júlia Gandini and Regina, Luiza de Souza Pinto and Domingues, Lucas Emanuel Resck},
 	year = {2016},
-	note = {Original title in Portuguese: "Olimpíada Brasileira de Robótica – OBR’2016, Modalidade Prática de Nível II"},
+	additional_info = {*Original title in Portuguese: "Olimpíada Brasileira de Robótica – OBR’2016, Modalidade Prática de Nível II"*},
 	pages = {13},
 	abbr = {Report},
 	bibtex_show = true,
+	google_scholar_id = {LkGwnXOMwfcC},
 }
 
 @inproceedings{pereira_distill_2023-1,
@@ -89,6 +102,7 @@ by the explainability technique to inform the most relevant parts of the documen
 	poster = {publications/pereira_distill_2023-1_poster.pdf},
 	video = {https://youtu.be/DsTpJfjz6BQ},
 	selected = {true},
+	google_scholar_id = {UebtZRa9Y70C},
 }
 
 @article{resck_legalvis_2023,
@@ -103,10 +117,10 @@ by the explainability technique to inform the most relevant parts of the documen
 	number = {6},
 	urldate = {2024-04-28},
 	journal = {IEEE Transactions on Visualization and Computer Graphics},
-	author = {Resck, Lucas E. and Ponciano, Jean R. and Nonato, Luis Gustavo and Poco, Jorge},
+	author = {Resck*, Lucas E. and Ponciano*, Jean R. and Nonato, Luis Gustavo and Poco, Jorge},
 	month = jun,
 	year = {2023},
-	note = {Presented at Visualization \& Visual Analytics (<b>VIS</b>) 2022},
+	additional_info = {*. Presented at Visualization \& Visual Analytics (VIS) 2022*},
 	keywords = {Data visualization, Task analysis, Visual analytics, Law, Natural language processing, Legal documents, natural language processing, Analytical models, Text analysis, Brazilian legal system, visual analytics},
 	pages = {3105--3120},
 	abbr = {TVCG 2023<br>VIS 2022},
@@ -116,6 +130,8 @@ by the explainability technique to inform the most relevant parts of the documen
 	pdf = {https://arxiv.org/pdf/2203.02001},
 	video = {https://www.youtube.com/watch?v=0qY_NxLSGBk&t=26071s},
 	selected = {true},
+	annotation = {* The first two authors contributed equally to this work.},
+	google_scholar_id = {ufrVoPGSRksC},
 }
 
 @inproceedings{resck_exploring_2024,
@@ -131,7 +147,7 @@ by the explainability technique to inform the most relevant parts of the documen
 	editor = {Duh, Kevin and Gomez, Helena and Bethard, Steven},
 	month = jun,
 	year = {2024},
-	note = {Also presented as a poster at the LatinX in NLP at NAACL 2024 workshop},
+	additional_info = {*. Also presented as a poster at the LatinX in NLP at NAACL 2024 workshop*},
 	pages = {4190--4216},
 	abbr = {NAACL<br>Findings 2024},
 	arxiv = {2404.03098},
@@ -143,6 +159,7 @@ by the explainability technique to inform the most relevant parts of the documen
 	poster = {publications/resck_exploring_2024_poster.pdf},
 	video = {https://youtu.be/P3X6Axtq7CY},
 	slides = {publications/resck_exploring_2024_slides.pdf},
+	google_scholar_id = {5nxA0vEk-isC},
 }
 
 @mastersthesis{domingues_balancing_2024,
@@ -162,6 +179,7 @@ by the explainability technique to inform the most relevant parts of the documen
 	html = {https://hdl.handle.net/10438/35362},
 	pdf = {https://repositorio.fgv.br/server/api/core/bitstreams/eb8738f8-1935-4e41-92bc-465a6230f0ee/content},
 	code = {https://github.com/visual-ds/plausible-nlp-explanations},
+	google_scholar_id = {MXK_kJrjxJIC},
 }
 
 @misc{tinarrage_empirical_2024,
@@ -180,4 +198,5 @@ by the explainability technique to inform the most relevant parts of the documen
 	bibtex_show = true,
 	html = {https://arxiv.org/abs/2407.07004},
 	pdf = {https://arxiv.org/pdf/2407.07004},
+	google_scholar_id = {3fE2CSJIrl8C},
 }
