@@ -26,7 +26,7 @@ Currently, I am a researcher at the
 [Visual Data Science Lab](http://visualdslab.com/) at Fundação Getulio Vargas
 (FGV) in Rio de Janeiro, Brazil.
 Since joining the lab in 2020, I have been conducting research in machine
-learning (ML), natural language processing (NLP), and explainable AI (XAI).
+learning (**ML**), natural language processing (**NLP**), and explainable AI (**XAI**).
 I hold an MSc in Mathematical Modeling (2024) and a BSc in Applied Mathematics
 (2021), both from the
 [School of Applied Mathematics](https://emap.fgv.br/en/school) at FGV.
