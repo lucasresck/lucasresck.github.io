@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student at the University of Cambridge
+subtitle: PhD student at the University of Cambridge
 
 profile:
   align: right
