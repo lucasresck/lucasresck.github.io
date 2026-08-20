@@ -29,12 +29,13 @@ Extra:
 - `selected`
 
 
-@inproceedings{zhou_llm_2026,
-	title = {{LLM} {Evaluators} are {Biased} across {Languages}},
+@inproceedings{zhou_lower-resource_2026,
+	title = {<i>Lower-{Resource}, {Higher} {Scores}</i>: {Language} {Bias} in {LLM} {Evaluators}},
 	copyright = {Creative Commons Attribution 4.0 International},
+	shorttitle = {Lower-{Resource}, {Higher} {Scores}},
 	url = {http://arxiv.org/abs/2607.14480},
 	doi = {10.48550/arXiv.2607.14480},
-	abstract = {LLM evaluators (trained reward models and prompted LLM-as-a-Judge) are routinely validated via pairwise accuracy. In a multilingual setting, this operates under the premise that high pairwise accuracy implies reliable, language-neutral scoring. We show that this assumption does not hold. We conduct experiments with semantically identical instruction-response pairs across 23 languages, and find that multilingual evaluators assign significantly different scores to different evaluation languages. The bias is statistically significant and consistent across eight open-weight evaluators of different architectures and training paradigms, persists in frontier judges, and is strongly correlated with language resource level: lower-resource languages are scored more generously. Meanwhile, these biases are invisible to pairwise accuracy: evaluators achieve above 90\% pairwise accuracy, yet have up to 43\% difference in acceptance rate across languages under a global decision threshold, meaning, for instance, that harmful content in lower-resource languages is more likely to pass safety filters. Per-language thresholds would require language identification, which can be defeated by code-switched prompts. We then investigate why lower-resource languages receive higher rather than lower scores, and we find that model uncertainty is linked with the effect: models tend to give higher scores when less confident, both under negative log-likelihood and under token-free uncertainty measures; however, language identity remains a significant predictor after controlling for uncertainty, and the bias cannot be explained away by content difficulty alone, but is a structural, language-level misalignment.},
+	abstract = {LLM evaluators (trained reward models and prompted LLM-as-a-Judge) are routinely validated via pairwise accuracy. In a multilingual setting, this operates under the premise that high pairwise accuracy implies reliable, language-neutral scoring. We show that this assumption does not hold across languages. We conduct experiments with semantically identical instruction--response pairs across 23 languages, and find that multilingual evaluators assign significantly different scores to different evaluation languages. We show that this bias is statistically significant and consistent across eight evaluators of different architectures and training paradigms, and is strongly correlated with language resource level: lower-resource languages are scored more generously. Meanwhile, these biases are invisible to pairwise accuracy: evaluators would achieve above 90\% pairwise accuracy, yet have 43\% difference in acceptance-rate across languages under a global decision threshold, meaning, for instance, that harmful content in lower-resource languages is more likely to pass safety filters. We then investigate why lower-resource languages receive higher rather than lower scores, and we find that model uncertainty (measured by negative log-likelihood) is linked with the effect: models tend to give higher scores when less confident; however, language identity remains a significant predictor after controlling for uncertainty, and the bias cannot be explained away by content difficulty alone, but is a structural, language-level misalignment.},
 	booktitle = {The {Third} {Annual} {Conference} on {Language} {Modeling}},
 	author = {Zhou, Ej and Resck, Lucas and Hui*, Zheng and Korhonen*, Anna},
 	month = oct,
@@ -44,7 +45,7 @@ Extra:
 	arxiv = {2607.14480},
 	bibtex_show = true,
 	pdf = {http://arxiv.org/pdf/2607.14480},
-	preview = {zhou_llm_2026.png},
+	preview = {zhou_lower-resource_2026.png},
 	google_scholar_id = {qxL8FJ1GzNcC},
 }
 
