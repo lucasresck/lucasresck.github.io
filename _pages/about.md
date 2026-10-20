@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a second-year PhD student in *Computation, Cognition and Language* at the
+I am a third-year PhD student in *Computation, Cognition and Language* at the
 [Language Technology Lab](https://ltl.mmll.cam.ac.uk/) at the University of
 Cambridge, supervised by
 [Prof. Anna Korhonen](https://sites.google.com/site/annakorhonen/) and
